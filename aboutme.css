@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: url(./assets/stars.gif);
+    background-size: cover;
+}
+.main{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+align-items: center;
+width: 100vw;
+}
+p{
+    font-size: 1em;
+}
+.heading{
+    margin-top: 2%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#heading-gif{
+    justify-content: center;
+}
