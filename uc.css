@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: brown center ;
+    background-size: cover;
+}
+.main{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+align-items: center;
+width: 100vw;
+}
+
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    
+        img {width: 40%;height: auto;}
+
+        
+    }

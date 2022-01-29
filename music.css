@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: url(./assets/ddxq50g-d6a378b8-df10-4df9-8607-e34d262a8a93.gif) center ;
+    background-size: cover;
+}
+.main{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+align-items: center;
+width: 100vw;
+}
+p{
+    font-size: 1em;
+}
+.heading{
+    margin-top: 2%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#heading-gif{
+    justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    
+        img {width: 100%;}
+        
+    }
