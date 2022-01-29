@@ -9,7 +9,7 @@
 }
 a{
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 color: rgb(172, 3, 172);
 font-weight: bold;
 }
@@ -21,7 +21,7 @@ align-items: center;
 width: 100vw;
 }
 p{
-    font-size: 1em;
+    font-size: 1rem;
 }
 .heading{
     margin-top: 2%;
@@ -39,7 +39,7 @@ img{
 }
 .mid-head{
     margin-top: 2%;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     width: 48vw;
     text-align: center;
     font-weight: bold;
@@ -64,10 +64,10 @@ img{
     justify-content: space-evenly;
 }
 h5{
-font-size: 1.3em;
+font-size: 1.3rem;
 color: rgb(172, 3, 172);
 }
 h4{
     margin: 0.1% 0%;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
