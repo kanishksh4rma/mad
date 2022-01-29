@@ -42,17 +42,35 @@ p{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 img{
-    margin-top: 2%;
-    width: 10%;
+    
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    /* font-size: 1.3rem; */
+color: rgb(172, 3, 172);
+font-weight: bold;
+
 }
 @media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
     
         img {width: 88%;}
+        a{
+            margin: 5px 0px;
+        }
+        h3{
+            font-size: 1rem;
+            width: 80%;
+        }
+        .box{
+            height: auto;
+            width: 80%;
+        }
         
     }
