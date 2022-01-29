@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background: url(./assets/stars.gif);
+    background: url(./assets/stars.gif) center no-repeat  ;
     background-size: cover;
 }
 .main{
@@ -23,9 +23,10 @@ p{
 #heading-gif{
     justify-content: center;
 }
-@media all and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
     
         img {width: 100%;}
+        
     }

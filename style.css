@@ -76,21 +76,21 @@ h4{
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
     h5{
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         
         }
         p{
-            font-size: 0.4rem;
+            font-size: 0.5rem;
         }
         .mid-head{
-            font-size: 0.4rem;
+            font-size: 0.5rem;
         }
         h4{
             
-            font-size: 0.5rem;
+            font-size: 0.6rem;
         }
         a{
-            font-size: 0.4rem;
+            font-size: 0.5rem;
         }
         
     }
