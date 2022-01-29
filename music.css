@@ -31,7 +31,7 @@ p{
     justify-content: center;
 }
 .box{
-    background-color: rgb(19,25,98);
+   /* background-color: rgb(19,25,98);*/
     width: 60%;
     height: 60%;
     justify-content: center;
