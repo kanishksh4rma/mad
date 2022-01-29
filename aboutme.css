@@ -23,3 +23,9 @@ p{
 #heading-gif{
     justify-content: center;
 }
+@media all and (max-width: 768px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    
+        img {width: 100%;}
+    }
