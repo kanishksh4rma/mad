@@ -15,7 +15,7 @@ flex-direction: column  ;
 justify-content: center;
 align-items: center;
 width: 100vw;
-height: 100vh;
+height: auto;
 
 }
 h3{
@@ -35,14 +35,17 @@ p{
     justify-content: center;
 }
 .box{
+    margin: 5% 0%;
+    padding: 1.4% 0%;
     background-color: rgb(19,25,98);
     width: 60%;
-    height: 60%;
+    height: auto;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
     text-align: left;
+    /* justify-content: left; */
 }
 
 img{
@@ -54,7 +57,10 @@ a{
     /* font-size: 1.3rem; */
 color: rgb(172, 3, 172);
 font-weight: bold;
-
+}
+h2{
+    color: rgb(172, 3, 172);
+font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
