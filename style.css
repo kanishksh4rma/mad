@@ -72,19 +72,25 @@ h4{
     font-size: 1.5rem;
 }
 
-@media all and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
     h5{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         
         }
         p{
-            font-size: 0.3rem;
+            font-size: 0.4rem;
+        }
+        .mid-head{
+            font-size: 0.4rem;
         }
         h4{
             
-            font-size: 0.8rem;
+            font-size: 0.5rem;
         }
-        img {width: 100%;}
+        a{
+            font-size: 0.4rem;
+        }
+        
     }
