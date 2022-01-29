@@ -1,8 +1,8 @@
 *{
     color: white;
     font-family: 'JetBrains Mono', monospace;
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0;
     
 }
 body{
@@ -34,6 +34,19 @@ p{
     background-color: rgb(19,25,98);
     width: 60%;
     height: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.music-row{
+    
+    width: 60%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 @media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
