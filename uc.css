@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background: brown center ;
+    background: rgb(55,31,27) center ;
     background-size: cover;
 }
 .main{
@@ -10,6 +10,7 @@ flex-direction: column  ;
 justify-content: center;
 align-items: center;
 width: 100vw;
+height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {

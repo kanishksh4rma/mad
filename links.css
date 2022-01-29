@@ -1,7 +1,12 @@
 *{
-    margin: 0;
-    padding: 0;
-    background: url(./assets/ddv9orf-e7db662c-3dc1-4b03-8fb9-105c0b58c844.gif) center ;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0 0;
+    padding: 0 0;
+    
+}
+body{
+    background: url(./assets/de0dib6-0d584820-45d9-49c8-a54d-a33b98ac8372.gif) center ;
     background-size: cover;
 }
 .main{
@@ -10,6 +15,12 @@ flex-direction: column  ;
 justify-content: center;
 align-items: center;
 width: 100vw;
+height: 100vh;
+
+}
+h3{
+    font-weight: bold;
+    color: white;
 }
 p{
     font-size: 1em;
@@ -23,10 +34,25 @@ p{
 #heading-gif{
     justify-content: center;
 }
+.box{
+    background-color: rgb(19,25,98);
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    margin-top: 2%;
+    width: 10%;
+}
 @media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
     
-        img {width: 100%;}
+        img {width: 88%;}
         
     }
