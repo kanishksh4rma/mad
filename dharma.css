@@ -11,18 +11,35 @@ body{
 .main{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 .brush-menu{
-    width: 50%;
-    height: auto;
+
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    height: 80vh;
     
 }
 .brush-menu img   {
-width: 30%;
+width: 50%;
 height: auto;
 
 }
+
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    .main{
+        justify-content: center;
+    }
+    .brush-menu{
+        width: 100%;
+    }
+        img {width: 100%;}
+        
+    }
