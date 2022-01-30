@@ -38,8 +38,8 @@ height: auto;
         justify-content: center;
     }
     .brush-menu{
-        width: 65%;
+        width: 100%;
     }
-        .brush-menu img {width: 100%;}
+        .brush-menu img {width: 40%;}
         
     }
