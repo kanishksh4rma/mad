@@ -17,7 +17,7 @@ body{
 }
 .brush-menu{
 
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -26,7 +26,7 @@ body{
     
 }
 .brush-menu img   {
-width: 50%;
+width: 35%;
 height: auto;
 
 }
