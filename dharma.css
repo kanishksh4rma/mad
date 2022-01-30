@@ -1,10 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
+    
+}
+body{
     background: url("./assets/devi.jpg") center ;
     background-size: cover;
 }
 .main{
     width: 100vw;
     height: 100vh;
+}
+.brush-menu{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.brush-menu img   {
+width: 30%;
+height: auto;
+
 }
