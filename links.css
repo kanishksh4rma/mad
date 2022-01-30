@@ -37,7 +37,7 @@ p{
 .box{
     margin: 5% 0%;
     padding: 1.4% 0%;
-    /*background-color: rgb(19,25,98);*/
+    background-color: rgb(19,25,98);
     width: 60%;
     height: auto;
     display: flex;
@@ -65,7 +65,9 @@ font-weight: bold;
 @media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
-    
+    .box{
+        background-color: transparent;
+    }
         img {width: 88%;}
         a{
             margin: 5px 0px;
