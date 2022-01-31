@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dharma</title>
-    <link rel="stylesheet" href="dharma.css">   
+    <link rel="stylesheet" href="dharma.css"> 
+    <link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
@@ -15,7 +19,30 @@
             <audio autoplay loop  id="playAudio">
                 <source src="./assets/dharma.mp3">
             </audio>
+
+            <div class="brush-menu">
+                <a href="https://sanatandhara.com">
+                 <img src="./assets/brush-dark-1.png" alt="menu-item">
+                </a>
+                <a href="https://indiansages.github.io/walls/">
+                 <img src="./assets/brush-dark-2.png" alt="menu-item">
+                 </a>
+                <a href="https://indiansages.github.io">
+                 <img src="./assets/brush-dark-3.png" alt="menu-item">
+                 </a>
+                <a href="https://open.spotify.com/track/6qJrmD6CXKWkWcsYwu9AV3?si=182ec250adf14cd5">
+                 <img src="./assets/brush-dark-4.png" alt="menu-item">
+                 </a>
+                <a href="index.html">
+                 <img src="./assets/brush-dark-5.png" alt="menu-item">
+                 </a>
+                
+            </div>
         </div>
     </div>
+    <script>
+        var audio = document.getElementById("playAudio");
+        audio.volume = 0.2;
+      </script>
 </body>
 </html>
