@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    
+    font-weight: bold;
+   
+}
+body{
+    padding: 10% 2%;
+    background: url(./assets/aesthetic-black.gif) ;
+    /* background-size: cover; */
+    font-size: 0.9rem;
+}
+.main{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+/* align-items: center; */
+width: 95%;
+height: auto;
+text-align: left;
+}
+.box{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+width: 100%;
+height: auto;
+text-align: left;
+gap: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    
+        body{font-size: 0.5rem;}
+        
+    }
