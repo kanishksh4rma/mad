@@ -6,6 +6,9 @@
     font-family: 'JetBrains Mono', monospace;
     margin: 0 0;
     padding: 0 0;
+    scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, .5) #f3f0f7;
+  scrollbar-track-color: red;
 }
 a{
     text-decoration: none;

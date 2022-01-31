@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 .brush-menu{
-
+    margin-left: 8%;
     width: 50%;
     display: flex;
     flex-direction: column;
