@@ -37,7 +37,7 @@ p{
 .box{
     margin: 5% 0%;
     padding: 1.4% 0%;
-    background-color: rgb(19,25,98);
+    background-color: rgba(22, 30, 117, 0.856);
     width: 60%;
     height: auto;
     display: flex;
