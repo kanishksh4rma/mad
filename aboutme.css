@@ -59,7 +59,10 @@ ul{
     }
     .gif-item{
         margin: 1.8% 0%;
+        
     }
+    .gif-item img{
+       width: 20%;}
         /* img {width: 100%;} */
         
     }
