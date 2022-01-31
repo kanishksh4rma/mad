@@ -90,7 +90,23 @@ h4{
     border-radius: 0px;
     
 }
-
+#narayana-btn{
+    width: 36%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 1.7%;
+    height: 1.5rem;
+}
+#narayana-btn img{
+    width: 20%;
+    height: 100%;
+    border-radius: 0px;
+}
+#narayana-btn:hover{
+    cursor: pointer;
+}
 @media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
@@ -116,5 +132,12 @@ h4{
             width: 30%;
             height: 50%;
         }
-        
+        #narayana-btn{
+            width: 10%;
+            height: 50%;
+        }
+        #narayana-btn img{
+            width: 100%;
+            height: 100%;
+        }
     }
