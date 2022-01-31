@@ -10,6 +10,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+<!-- for random pics -->
+<script type="text/javascript">
+    var imageURLs = [
+         "./assets/grudge-pics/1.jpg",
+         "./assets/grudge-pics/2.jpg",
+         "./assets/grudge-pics/3.jpg",
+         "./assets/grudge-pics/4.jpg",
+         
+         
+         "./assets/grudge-pics/9.jpg",
+         
+         "./assets/grudge-pics/21.jpg",
+         
+         "./assets/grudge-pics/18.jpg",
+         "./assets/grudge-pics/17.jpg",
+         "./assets/grudge-pics/16.jpg",
+         "./assets/grudge-pics/15.jpg",
+         
+         "./assets/grudge-pics/13.jpg",
+         "./assets/grudge-pics/12.jpg",
+         "./assets/grudge-pics/11.jpg",
+         "./assets/grudge-pics/10.jpg"
+    ];
+    function getImageTag() {
+      var img = '<img id=\"heading-gif\" src=\"';
+      var randomIndex = Math.floor(Math.random() * imageURLs.length);
+      img += imageURLs[randomIndex];
+      img += '\" alt=\"Some alt text\"/>';
+      return img;
+    }
+  </script>
 </head>
 <body>
    <div class="main">
@@ -20,7 +52,11 @@
             </audio>
     
     <div class="heading">
-        <img id="heading-gif" src="./assets/summon-orl.gif" alt="odd" >
+        <script type="text/javascript">
+            document.write(getImageTag());
+            // document.write(getImageTag());
+            // document.write(getImageTag());
+          </script>
     </div>
     <div class="mid-head">
         <img  src="./assets/chain.png" alt="chain">

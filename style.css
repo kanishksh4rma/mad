@@ -32,9 +32,12 @@ p{
     width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #heading-gif{
     justify-content: center;
+    width: 10%;
+    height: auto;
 }
 
 img{ 

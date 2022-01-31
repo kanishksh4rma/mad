@@ -12,6 +12,7 @@ h2{
     font-family:"pixel-font";
     font-size: 1rem;
     padding: 0.5% 0;
+    /* font-family: 'JetBrains Mono', monospace; */
 }
 body{
     padding: 5% 2%;
