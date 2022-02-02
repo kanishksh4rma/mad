@@ -1,0 +1,60 @@
+*{
+    background-color: white;
+    font-family: 'JetBrains Mono', monospace;
+    color: rgb(24,26,27);
+    
+}
+.main{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-wrap: calc(50%); */
+}
+/* #left{
+    text-align: center;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#right{
+    text-align: center;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */
+#heading{
+    text-align: center;
+    font-size: 14px;
+    font-style: bold;
+}
+img {width: 30%;height: auto;}
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+   
+        img {width: 40%;height: auto;}
+        .main{
+            text-align: center;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        
+    }
