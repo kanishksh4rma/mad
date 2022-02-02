@@ -1,0 +1,84 @@
+*{
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0 0;
+    padding: 0 0;
+    
+}
+body{
+    background: url(./assets/aesthetic-black.gif) ;
+
+}
+.main{
+    display: flex;
+flex-direction: column  ;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: auto;
+
+}
+h3{
+    font-weight: bold;
+    color: white;
+}
+
+.heading{
+    margin-top: 2%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#heading-gif{
+    justify-content: center;
+}
+.box{
+    margin: 5% 0%;
+    padding: 1.4% 0%;
+    background-color: rgba(22, 30, 117, 0.856);
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: left;
+    /* justify-content: left; */
+}
+
+img{
+    
+    width: 30%;
+}
+p{
+    text-decoration: underline rgb(172, 3, 172);
+    /* font-size: 1.3rem; */
+color: rgb(172, 3, 172);
+font-weight: bold;
+}
+a{
+text-decoration:none;
+    color: rgb(172, 3, 172);
+font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    .box{
+        background-color: transparent;
+    }
+        img {width: 88%;}
+        p{
+            margin: 5px 0px;
+font-size: 0.2rem;
+        }
+        h3{
+            font-size: 0.6rem;
+            width: 80%;
+        }
+        .box{
+            height: auto;
+            width: 80%;
+        }
+        
+    }
