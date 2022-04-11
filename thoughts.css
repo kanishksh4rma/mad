@@ -8,6 +8,9 @@
     color: white;  
     font-weight: bold;
 }
+#cut-words{
+    text-decoration: line-through;
+}
 h2{
     font-family:"pixel-font";
     font-size: 1rem;

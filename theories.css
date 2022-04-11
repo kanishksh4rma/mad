@@ -19,8 +19,8 @@ h2{
 }
 body{
     padding: 5% 2%;
-    background: url(../assets/bg3.gif) center;
-        background-size: cover;
+    background: url(../assets/aesthetic-black.gif) ;
+        
     
     font-size: 0.9rem;
     font-family: 'JetBrains Mono', monospace;
@@ -47,7 +47,10 @@ margin-top: 1.5%;
 #chain {
 width: 30%;
 }
-
+p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 @media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
