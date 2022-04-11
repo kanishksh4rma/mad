@@ -63,40 +63,45 @@ height: auto;
 }
 .music-poster{
    /* background-color: rgb(19,25,98);*/
-   width: 85%;
-   height: 85%;
+   width: 95%;
+   height: 95%;
     
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    border-radius: 100px;
+    
 }
 .music-poster a{
     /* background-color: rgb(19,25,98);*/
-    width: 85%;
-    height: 85%;
+    width: 150px;
+    height: 150px;
      
      justify-content: center;
      align-items: center;
      display: flex;
      flex-direction: column;
-     border-radius: 100px;
+     
+ }
+ .music-poster img{
+    border-radius: 10px;
+
  }
 .music-poster img{
-    width: 85%;
-    height: 85%;
+    width: 100%;
+    height: 100%;
 }
 .music-row{
     
-    width: 85%;
-    height: 85%;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
     outline: none;
     box-shadow: none;
+    margin-top: 2%;
 }
 
 a{
