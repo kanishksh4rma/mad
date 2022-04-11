@@ -1,40 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>links</title>
-    <link rel="stylesheet" href="links.css">
+    <title>gallery</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- for random pics -->
+    <script type="text/javascript">
+        var imageURLs = [
+            "./assets/grudge-pics/14.png",
+            "./assets/grudge-pics/18.jpg",
+            "./assets/grudge-pics/17.jpg",
+            "./assets/grudge-pics/16.jpeg",
+            "./assets/grudge-pics/15.jpg",
+            "./assets/grudge-pics/13.jpg",
+            "./assets/grudge-pics/12.jpg",
+            "./assets/grudge-pics/11.jpg",
+            "./assets/grudge-pics/10.png",
+            "./assets/grudge-pics/9.jpg",
+            "./assets/grudge-pics/8.jpg",
+            "./assets/grudge-pics/7.jpg",
+            "./assets/grudge-pics/6.jpg",
+            "./assets/grudge-pics/5.jpg",
+            "./assets/grudge-pics/4.jpg",
+            "./assets/grudge-pics/3.jpg",
+            "./assets/grudge-pics/2.jpg",
+            "./assets/grudge-pics/1.jpg",
+
+
+        ];
+        function getImageTag() {
+            var img = '<img id=\"heading-gif\" src=\"';
+            var randomIndex = Math.floor(Math.random() * imageURLs.length);
+            img += imageURLs[randomIndex];
+            img += '\" alt=\"Some alt text\"/>';
+            return img;
+        }
+    </script>
 </head>
+
 <body>
     <div class="main">
-        <div class="box">
-            <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
 
-            <audio autoplay loop  id="playAudio">
-                <source src="./assets/agnes_obel_familiar_official_video_yZdk_HIByoK-gucZ4yUw.mp3">
-            </audio>
-            <img  src="./assets/chain.png" alt="chain">
-            <h2>my websites</h2>
-            <img  src="./assets/chain.png" alt="chain">
-<br>
+        <audio autoplay loop id="playAudio">
+            <source src="./assets/KK.mp3">
+        </audio>
 
+        <div class="heading">
+            <script type="text/javascript">
+                document.write(getImageTag());
+                document.write(getImageTag());
+                document.write(getImageTag());
+            </script>
+
+            <!-- <img src="./assets/grudge-pics/1.jpg" >
+          <img src="./assets/grudge-pics/6.jpg" >
+          <img src="./assets/grudge-pics/8.jpg" > -->
+
+        </div>
+        <div class="mid-head">
+            <img src="./assets/chain.png" alt="chain">
+            <p>Welcome to the rabbit hole.</p>
+            <p>You may get lost.</p>
+            <p>But who the fuck cares?</p>
+            <img src="./assets/chain.png" alt="chain">
+        </div>
+        <h4>site links</h4>
+
+        <div class="sites">
+            <a href="theories.html">theories</a>
+            <a href="music2.html">music</a>
+            <a href="movie.html">movies</a>
+            <a href="uc.html">hidden vault</a>
+        </div>
+
+        <div class="sites sites2">
+            <a href="kk.html"> KK </a><br>
+            <a href="unixporn.html"> my unixporn </a>
+            <a href="https://jethiya-ai.herokuapp.com/downloads"> jethiya-bot </a>
+            <a href="scripts.html"> scripts</a>
+
+        </div>
+
+
+        <img id="chain" src="./assets/chain.png" alt="chain">
+        <div id="dirr" class="sites">
+            <a id="dir" href="tree.html">directory</a>
+        </div>
+        <img src="./assets/output-onlinegiftools.gif" alt="hand-gif" style="margin-right: 1.5%;">
+        <img src="./assets/i-will-let-you-down.gif" alt="i-will-let-you-down-gif" style="margin-top: 1.52%;">
+
+        <!-- <div class="gif-box"> -->
+        <a id="narayana-btn" href="https://indiansages.github.io/mad">
+            <img src="./assets/narayana.gif" alt="narayana">
+        </a>
+        <!-- </div> -->
+        <p style="margin: 1% 0%; width: 50%;">Best viewed with Netscape 3.0+. Because AOL's browser sucks nuts.</p>
+    </div>
+</body>
+
+</html>
+
+
+<!-- 
                <a href="kk.html" > KK </a><br>
 
 <a href="http://adum.herokuapp.com/"> ADUM </a>
 <br>
 <a href="https://jethiya-ai.herokuapp.com/downloads"> jethiya-bot </a>
 <br>
-<a href="uc.html" > Tokyo-Night </a>
-<br>
-             
-        </div>
-        </div>
-       
-</body>
-</html>
+<a href="uc.html" > Tokyo-Night </a> -->
